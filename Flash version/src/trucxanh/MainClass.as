@@ -13,6 +13,7 @@ package trucxanh {
 	import flash.geom.Point;
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
+	import flash.utils.setTimeout;
 	import trucxanh.common.Constant;
 	import trucxanh.component.QuestionCell;
 	import trucxanh.component.QuestionContent;
@@ -34,6 +35,8 @@ package trucxanh {
 		public var showAllMovie: Sprite;
 		
 		private var currentActiveCell: QuestionCell;
+		
+		var showCompareTime: Number = 1;
 		
 		public function MainClass() {
 			this.addEventListener(Event.ADDED_TO_STAGE, addedToStageHandler, false, 0, true);
@@ -71,19 +74,74 @@ package trucxanh {
 			Constant.MOVIE_HEIGHT = this.height;
 		}
 		
+		private function processTwoCells(oldCell: QuestionCell, newCell: QuestionCell)
+		{
+			trace("processTwoCells => oldCell: " + oldCell.urlFrontground + " -- newCell: " + newCell.urlFrontground);
+			if (oldCell.urlFrontground != newCell.urlFrontground)
+			{
+				oldCell.showFrontGround(false);
+				newCell.showFrontGround(false);
+			}
+			else
+			{
+				oldCell.relatedCell = newCell;
+				newCell.relatedCell = oldCell;
+				if (oldCell.contentQuestion.length > 0)	showQuestion(oldCell);
+				else if (newCell.contentQuestion.length > 0)	showQuestion(newCell);
+				else
+				{
+					oldCell.openCell();
+					newCell.openCell();
+				}
+			}
+		}
+		
 		private function cellClickHandler(event: Event): void {
-			currentActiveCell = event.target as QuestionCell;
+			var newActiveCell: QuestionCell = event.target as QuestionCell;
+			
+			if (newActiveCell == currentActiveCell)	return;
+			
+			if (!newActiveCell.isMarked && newActiveCell.HasGotFrontground())
+			{
+				if (!newActiveCell.IsShowingFront())
+				{
+					newActiveCell.showFrontGround(true);
+					
+					if (currentActiveCell != null && currentActiveCell.IsShowingFront())
+					{
+						// ...
+						setTimeout(processTwoCells, showCompareTime, currentActiveCell, newActiveCell);
+					}
+					
+					currentActiveCell = newActiveCell;
+					return;
+				}
+			}
+			
+			if (currentActiveCell != null)	currentActiveCell.showFrontGround(false);
+			currentActiveCell = newActiveCell;
+			showQuestion(currentActiveCell);
+		}
+		
+		private function showQuestion(cell: QuestionCell): void
+		{
+			if (cell.contentQuestion.length <= 0)
+			{
+				cell = cell.relatedCell;
+				if (cell == null || cell.contentQuestion.length <= 0)
+					cell.openCell();
+					return;
+			}
 			
 			var questionMovie: QuestionContent = new QuestionContent();
 			this.addChild(questionMovie);
-			//questionMovie.setData(currentActiveCell.text, currentActiveCell.contentQuestion, currentActiveCell.answerQuestion, hiddenMovie.width, hiddenMovie.height, contentBgMovie);
-			questionMovie.setDataXML(currentActiveCell.dataXML, hiddenMovie.width, hiddenMovie.height, contentBgMovie);
+			questionMovie.setDataXML(cell.dataXML, hiddenMovie.width, hiddenMovie.height, contentBgMovie);
 			questionMovie.width = hiddenMovie.width;
 			questionMovie.height = hiddenMovie.height;
 			questionMovie.alpha = 0;
-			var sPoint: Point = currentActiveCell.parent.localToGlobal(new Point(currentActiveCell.x, currentActiveCell.y));
-			questionMovie.x = sPoint.x + currentActiveCell.width / 2;
-			questionMovie.y = sPoint.y + currentActiveCell.height / 2;
+			var sPoint: Point = cell.parent.localToGlobal(new Point(cell.x, cell.y));
+			questionMovie.x = sPoint.x + cell.width / 2;
+			questionMovie.y = sPoint.y + cell.height / 2;
 			
 			questionMovie.addEventListener(Constant.EVENT_CORRECT, questionResultHandler, false, 0, true);
 			questionMovie.addEventListener(Constant.EVENT_WRONG, questionResultHandler, false, 0, true);
@@ -113,7 +171,7 @@ package trucxanh {
 				questionMovie.parent.removeChild(questionMovie);
 			}
 			
-			currentActiveCell = null
+			currentActiveCell = null;
 		}
 		
 		private function init():void {
@@ -273,6 +331,9 @@ package trucxanh {
 			if (url)	Constant.imageCorrectUrl = url;
 			url = xml.config.image_wrong_url.toString();
 			if (url)	Constant.imageWrongUrl = url;
+			
+			url = xml.config.image_couple_showtime.toString();
+			if (url)	showCompareTime = parseFloat(url);
 			
 			reArrangeAll();
 		}

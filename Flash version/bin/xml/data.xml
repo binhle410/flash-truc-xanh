@@ -11,6 +11,9 @@
 		<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 		<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 		<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
+		
+		<!-- NEW FEATURE -->
+		<image_couple_showtime>750</image_couple_showtime>								<!-- Thời gian pause lại (miliseconds) để show 2 ô hình đã lật -->
 	</config>
 	
 	<hidden_image_url><![CDATA[images/hidden.jpg]]></hidden_image_url>					<!-- Hình to ẩn bên dưới các ô câu hỏi -->
@@ -20,6 +23,12 @@
 			<quiz_type>TYPE_FREE</quiz_type>		<!-- Loại trắc nghiệm: TYPE_FREE, TYPE_SELECT_ONE, TYPE_SELECT_MANY, TYPE_MATCHING, TYPE_INPUT, TYPE_IMAGE -->
 			<label><![CDATA[<font color='#FFFF00'>Free</font>]]></label>				<!-- Tên nhãn của ô, có thể là số, tên riêng hoặc để trống đều được -->
 			<image_url><![CDATA[images/tre.jpg]]></image_url>							<!-- Hình nền của ô (không phải hình to ẩn phía dưới), mỗi ô có hình nền khác nhau cũng được-->
+			
+			<!-- NEW FEATURE -->
+			<!-- Hình sau khi bấm lật ô, 2 ô hình giống nhau sẽ hiện câu hỏi (câu hỏi định nghĩa ở 1 trong 2 ô, ô còn lại không chứa câu hỏi) -->
+			<!-- Nếu thuộc tính image_front_url không có giá trị thì ô mang chức năng như cũ -->
+			<image_front_url><![CDATA[images/letter_a.jpg]]></image_front_url>
+			
 			<question_content><![CDATA[Đây là bài hát gì?]]></question_content>	<!-- Nội dung câu hỏi của ô -->
 			<question_answer><![CDATA[Bài quốc ca đấy! Ngạc nhiên chưa :D]]></question_answer>	<!-- Đáp án -->
 			<question_video>
@@ -32,8 +41,8 @@
 				<video_url skin="playerSkin.swf" width="300" height="200"><![CDATA[videos/happybirthday.mp4]]></video_url> <!-- Double click từ từ vô player để show fullscreen, video luôn nằm đầu tiên -->
 				<video_url skin="playerSkin.swf" width="300" height="200"><![CDATA[videos/happybirthday.mp4]]></video_url> <!-- Double click từ từ vô player để show fullscreen, video luôn nằm đầu tiên -->
 			</answer_video>
-			<sound_correct_url><![CDATA[sound/correct1.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
-			<sound_wrong_url><![CDATA[sound/wrong1.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
 		</cell>
@@ -41,6 +50,12 @@
 			<quiz_type>TYPE_SELECT_ONE</quiz_type>		<!-- Loại trắc nghiệm: TYPE_FREE, TYPE_SELECT_ONE, TYPE_SELECT_MANY, TYPE_MATCHING, TYPE_INPUT, TYPE_IMAGE -->
 			<label><![CDATA[Quiz]]></label>
 			<image_url><![CDATA[images/tre.jpg]]></image_url>
+			
+			<!-- NEW FEATURE -->
+			<!-- Hình sau khi bấm lật ô, 2 ô hình giống nhau sẽ hiện câu hỏi (câu hỏi định nghĩa ở 1 trong 2 ô, ô còn lại không chứa câu hỏi) -->
+			<!-- Nếu thuộc tính image_front_url không có giá trị thì ô mang chức năng như cũ -->
+			<image_front_url><![CDATA[images/letter_d.jpg]]></image_front_url>
+			
 			<question_content><![CDATA[Ai là người đẹp trai nhất?]]></question_content>
 			<question_options>				<!-- Danh sách các phương án lựa chọn, số lượng không hạn chế -->
 				<option><![CDATA[A. Bình Mập]]></option>
@@ -50,8 +65,8 @@
 				<option><![CDATA[E. Bin Laden]]></option>
 			</question_options>
 			<question_answer><![CDATA[1]]></question_answer>	<!-- Index của câu trả lời đúng, tính từ 0 -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
-			<sound_wrong_url><![CDATA[sound/wrong2.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
 		</cell>
@@ -59,15 +74,10 @@
 			<quiz_type>TYPE_SELECT_MANY</quiz_type>		<!-- Loại trắc nghiệm: TYPE_FREE, TYPE_SELECT_ONE, TYPE_SELECT_MANY, TYPE_MATCHING, TYPE_INPUT, TYPE_IMAGE -->
 			<label><![CDATA[Select]]></label>
 			<image_url><![CDATA[images/tre.jpg]]></image_url>
-			<question_content><![CDATA[Những ai là diễn viên điện ảnh?]]></question_content>
-			<question_options>				<!-- Danh sách các phương án lựa chọn, số lượng không hạn chế -->
-				<option><![CDATA[A. Bình Mập]]></option>
-				<option><![CDATA[B. Trung Đẹp Trai]]></option>
-				<option><![CDATA[C. Jang Don Gun]]></option>
-				<option><![CDATA[D. Leonardo DiCaprio]]></option>
-				<option><![CDATA[E. Bin Laden]]></option>
-			</question_options>
-			<question_answer><![CDATA[2+3]]></question_answer>	<!-- Index của các câu trả lời đúng, tính từ 0, cách nhau bởi dấu + -->
+			<!-- NEW FEATURE -->
+			<!-- Hình sau khi bấm lật ô, 2 ô hình giống nhau sẽ hiện câu hỏi (câu hỏi định nghĩa ở 1 trong 2 ô, ô còn lại không chứa câu hỏi) -->
+			<!-- Nếu thuộc tính image_front_url không có giá trị thì ô mang chức năng như cũ -->
+			<image_front_url><![CDATA[images/letter_e.jpg]]></image_front_url>
 		</cell>
 		<cell>			
 			<quiz_type>TYPE_MATCHING</quiz_type>		<!-- Loại trắc nghiệm: TYPE_FREE, TYPE_SELECT_ONE, TYPE_SELECT_MANY, TYPE_MATCHING, TYPE_INPUT, TYPE_IMAGE -->
@@ -361,50 +371,40 @@
 			<quiz_type>TYPE_MATCHING</quiz_type>		<!-- Loại trắc nghiệm: TYPE_FREE, TYPE_SELECT_ONE, TYPE_SELECT_MANY, TYPE_MATCHING, TYPE_INPUT, TYPE_IMAGE -->
 			<label><![CDATA[Matching]]></label>
 			<image_url><![CDATA[images/tre.jpg]]></image_url>
-			<question_content><![CDATA[Hãy chọn người & nghề nghiệp tương ứng!]]></question_content>
-			<question_options color="0xFFFFFF">				<!-- Danh sách các phương án lựa chọn, số lượng không hạn chế -->
-				<option><![CDATA[Bình Mập]]></option>
-				<option><![CDATA[Trung Đẹp Trai]]></option>
-				<option><![CDATA[Jang Don Gun]]></option>
-				<option><![CDATA[Leonardo DiCaprio]]></option>
-				<option><![CDATA[Bin Laden]]></option>
-			</question_options>
-			<question_matching color="0xFF6666">				<!-- Danh sách các phương án lựa chọn, số lượng không hạn chế -->
-				<option><![CDATA[Khủng bố]]></option>
-				<option><![CDATA[Lập trình viên]]></option>
-				<option><![CDATA[Giám đốc]]></option>
-				<option><![CDATA[Người mẫu]]></option>
-				<option><![CDATA[Diễn viên]]></option>
-			</question_matching>
-			<question_answer><![CDATA[0:2+1:1+2:3+3:4+4:0]]></question_answer>	<!-- Cặp index của các câu trả lời đúng, tính từ 0, nối nhau bởi dấu :, các cặp cách nhau bởi dấu + -->
-			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
-			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
-			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
-			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
+			<!-- NEW FEATURE -->
+			<!-- Hình sau khi bấm lật ô, 2 ô hình giống nhau sẽ hiện câu hỏi (câu hỏi định nghĩa ở 1 trong 2 ô, ô còn lại không chứa câu hỏi) -->
+			<!-- Nếu thuộc tính image_front_url không có giá trị thì ô mang chức năng như cũ -->
+			<image_front_url><![CDATA[images/letter_e.jpg]]></image_front_url>
 		</cell>
 		<cell>
 			<quiz_type>TYPE_INPUT</quiz_type>		<!-- Loại trắc nghiệm: TYPE_FREE, TYPE_SELECT_ONE, TYPE_SELECT_MANY, TYPE_MATCHING, TYPE_INPUT, TYPE_IMAGE -->
 			<label><![CDATA[Input]]></label>
 			<image_url><![CDATA[images/tre.jpg]]></image_url>
+			<image_front_url><![CDATA[images/letter_d.jpg]]></image_front_url>
+			<!-- 
 			<question_content><![CDATA[Điền từ thích hợp vào chỗ trống.]]></question_content> 
-			<question_input><![CDATA[Bầu ơi thương lấy <input> cùng<br/>Tuy rằng <input> nhưng chung một giàn.]]></question_input> <!-- <input> là ô trống dùng để gõ nội dung vào -->
-			<question_answer><![CDATA[bí+khác giống]]></question_answer> <!-- Số cụm từ tương ứng số chỗ cho input ở câu hỏi, mỗi cụm từ cách nhau bởi dấu + -->
-			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
-			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
-			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
-			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
+			<question_input><![CDATA[Bầu ơi thương lấy <input> cùng<br/>Tuy rằng <input> nhưng chung một giàn.]]></question_input>
+			<question_answer><![CDATA[bí+khác giống]]></question_answer>
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>	
+			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>		
+			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>
+			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>	
+			-->
 		</cell>
 		<cell>			
 			<quiz_type>TYPE_IMAGE</quiz_type>		<!-- Loại trắc nghiệm: TYPE_FREE, TYPE_SELECT_ONE, TYPE_SELECT_MANY, TYPE_MATCHING, TYPE_INPUT, TYPE_IMAGE -->
 			<label><![CDATA[Image]]></label>
 			<image_url><![CDATA[images/tre.jpg]]></image_url>
+			<image_front_url><![CDATA[images/letter_a.jpg]]></image_front_url>
+			<!-- 
 			<question_content><![CDATA[Đàn ông thích nhìn vị trí nào nhất?]]></question_content>
 			<question_image_url width="480" height="320"><![CDATA[http://a9.vietbao.vn/images/vn965/cong-nghe/65348651-vnm_2012_579283.jpg]]></question_image_url>
-			<question_answer><![CDATA[60:150:90:110+240:270:85:85]]></question_answer> <!-- Rect(x:y:w:h) của vùng đúng, mỗi rect cách nhau bởi dấu cộng + -->
-			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
-			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
-			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
-			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
+			<question_answer><![CDATA[60:150:90:110+240:270:85:85]]></question_answer>
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>
+			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>
+			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>
+			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>
+			-->
 		</cell>
 	</list_cell>
 </data>
