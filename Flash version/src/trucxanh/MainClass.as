@@ -81,6 +81,7 @@ package trucxanh {
 			{
 				oldCell.showFrontGround(false);
 				newCell.showFrontGround(false);
+				currentActiveCell = null;
 			}
 			else
 			{
