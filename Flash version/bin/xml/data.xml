@@ -78,6 +78,7 @@
 			<!-- Hình sau khi bấm lật ô, 2 ô hình giống nhau sẽ hiện câu hỏi (câu hỏi định nghĩa ở 1 trong 2 ô, ô còn lại không chứa câu hỏi) -->
 			<!-- Nếu thuộc tính image_front_url không có giá trị thì ô mang chức năng như cũ -->
 			<image_front_url><![CDATA[images/letter_e.jpg]]></image_front_url>
+			<sound_correct_url><![CDATA[sound/tap_correct.mp3]]></sound_correct_url>			<!-- Âm thanh khi match ĐÚNG -->
 		</cell>
 		<cell>			
 			<quiz_type>TYPE_MATCHING</quiz_type>		<!-- Loại trắc nghiệm: TYPE_FREE, TYPE_SELECT_ONE, TYPE_SELECT_MANY, TYPE_MATCHING, TYPE_INPUT, TYPE_IMAGE -->

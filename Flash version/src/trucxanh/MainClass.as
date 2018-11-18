@@ -19,6 +19,7 @@ package trucxanh {
 	import trucxanh.component.QuestionContent;
 	import trucxanh.component.QuestionTable;
 	import trucxanh.component.Title;
+	import trucxanh.common.helpers.SoundManager;
 	/**
 	 * ...
 	 * @author Trung đẹp trai
@@ -33,6 +34,7 @@ package trucxanh {
 		public var fullscreenMovie: Sprite;
 		public var lightOffMovie: Sprite;
 		public var showAllMovie: Sprite;
+		public var stopSoundsMovie: Sprite;
 		
 		private var currentActiveCell: QuestionCell;
 		
@@ -89,10 +91,15 @@ package trucxanh {
 				newCell.relatedCell = oldCell;
 				if (oldCell.contentQuestion.length > 0)	showQuestion(oldCell);
 				else if (newCell.contentQuestion.length > 0)	showQuestion(newCell);
-				else
+				else	// no question
 				{
 					oldCell.openCell();
 					newCell.openCell();
+					var url: String = oldCell.dataXML.sound_correct_url.toString();
+					if (!url)	url = newCell.dataXML.sound_correct_url.toString();
+					trace("processTwoCells => sound url: " + url);
+					if (url)
+						SoundManager.playUrl(url);
 				}
 			}
 		}
@@ -102,7 +109,8 @@ package trucxanh {
 			
 			if (newActiveCell == currentActiveCell)	return;
 			
-			if (!newActiveCell.isMarked && newActiveCell.HasGotFrontground())
+			//if (!newActiveCell.isMarked && newActiveCell.HasGotFrontground())
+			if (newActiveCell.HasGotFrontground())
 			{
 				if (!newActiveCell.IsShowingFront())
 				{
@@ -155,13 +163,18 @@ package trucxanh {
 		private function questionResultHandler(event: Event): void {
 			switch (event.type) {
 				case Constant.EVENT_CLOSE:
-				
+					currentActiveCell.showFrontGround(false);
+					if (currentActiveCell.relatedCell)
+						currentActiveCell.relatedCell.showFrontGround(false);
 				break;
 				case Constant.EVENT_CORRECT:
 					currentActiveCell.openCell();
 				break;
 				case Constant.EVENT_WRONG:
 					currentActiveCell.markCell();
+					currentActiveCell.showFrontGround(false);
+					if (currentActiveCell.relatedCell)
+						currentActiveCell.relatedCell.showFrontGround(false);
 				break;
 			}
 			
@@ -185,6 +198,7 @@ package trucxanh {
 			initFullscreen();
 			initLightOff();
 			initShowAll();
+			initStopSounds();
 		}
 		
 		private function initShowAll():void {
@@ -196,6 +210,17 @@ package trucxanh {
 		
 		private function showAllClickHandler(event: MouseEvent): void {
 			tableMovie.visible = !tableMovie.visible;
+		}
+		
+		private function initStopSounds():void {
+			stopSoundsMovie = new StopSoundsButton();
+			stopSoundsMovie.buttonMode = true;
+			this.addChild(stopSoundsMovie);
+			stopSoundsMovie.addEventListener(MouseEvent.CLICK, stopSoundsClickHandler, false, 0, true);
+		}
+		
+		private function stopSoundsClickHandler(event: MouseEvent): void {
+			SoundManager.stopAllSound();
 		}
 		
 		private function initFullscreen():void {
@@ -277,7 +302,10 @@ package trucxanh {
 			lightOffMovie.y = 0;
 			
 			//showAllMovie.x = w - showAllMovie.width;
-			//showAllMovie.y = h - showAllMovie.y
+			//showAllMovie.y = h - showAllMovie.y;
+			
+			stopSoundsMovie.x = w - fullscreenMovie.width;
+			stopSoundsMovie.y = fullscreenMovie.y + fullscreenMovie.height + 10;
 		}
 		
 		private function initTitle():void {
