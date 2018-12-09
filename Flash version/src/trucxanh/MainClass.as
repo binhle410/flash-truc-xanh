@@ -20,6 +20,8 @@ package trucxanh {
 	import trucxanh.component.QuestionTable;
 	import trucxanh.component.Title;
 	import trucxanh.common.helpers.SoundManager;
+	import flash.utils.getTimer;
+	
 	/**
 	 * ...
 	 * @author Trung đẹp trai
@@ -97,14 +99,20 @@ package trucxanh {
 					newCell.openCell();
 					var url: String = oldCell.dataXML.sound_correct_url.toString();
 					if (!url)	url = newCell.dataXML.sound_correct_url.toString();
-					trace("processTwoCells => sound url: " + url);
-					if (url)
-						SoundManager.playUrl(url);
+					//trace("processTwoCells => sound url: " + url);
+					if (url)	SoundManager.playUrl(url);
+						
+					currentActiveCell = null;
 				}
 			}
 		}
 		
+		var lastTime: Number = 0;
 		private function cellClickHandler(event: Event): void {
+			var newTime: Number = getTimer();
+			if (newTime - lastTime < 250) return;
+			lastTime = newTime;
+			
 			var newActiveCell: QuestionCell = event.target as QuestionCell;
 			
 			if (newActiveCell == currentActiveCell)	return;
@@ -118,7 +126,7 @@ package trucxanh {
 					
 					if (currentActiveCell != null && currentActiveCell.IsShowingFront())
 					{
-						// ...
+						lastTime = newTime + showCompareTime;
 						setTimeout(processTwoCells, showCompareTime, currentActiveCell, newActiveCell);
 					}
 					
@@ -134,6 +142,7 @@ package trucxanh {
 		
 		private function showQuestion(cell: QuestionCell): void
 		{
+			trace("showQuestion => cell: " + cell);
 			if (cell.contentQuestion.length <= 0)
 			{
 				cell = cell.relatedCell;

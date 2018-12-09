@@ -10,7 +10,7 @@
 		<sound_wrong_url><![CDATA[sound/answers/w7.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 		<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 		<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
-		<image_couple_showtime>750</image_couple_showtime>
+		<image_couple_showtime>750</image_couple_showtime>								<!-- Thời gian pause lại để so sánh 2 hình -->
 
 	</config>	
 	<hidden_image_url><![CDATA[images/duc-me-truyen-tin.jpg]]></hidden_image_url>					<!-- Hình to ẩn bên dưới các ô hỏi -->
@@ -26,7 +26,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -41,7 +41,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -55,7 +55,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -69,7 +69,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -82,7 +82,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -96,7 +96,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -121,7 +121,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content><![CDATA[]]></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -135,7 +135,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content><![CDATA[]]></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -147,7 +147,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -159,7 +159,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -171,7 +171,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -184,7 +184,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content><![CDATA[Câu hỏi KINH THÁNH.]]></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -197,7 +197,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -210,7 +210,7 @@
 						<question_content><![CDATA[<img src='images/duoi-hinh-bat-chu/nhan-duc.jpg' />]]></question_content>	<!-- Nội dung hỏi của ô -->
 
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -223,7 +223,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -235,7 +235,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -247,7 +247,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -258,7 +258,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content><![CDATA[Bạn hãy hát.]]></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -270,7 +270,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content><![CDATA[]]></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -282,7 +282,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 						<question_content><![CDATA[<img src='images/duoi-hinh-bat-chu/kinh-luoc.png' />]]></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -295,7 +295,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -309,7 +309,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -322,7 +322,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content><![CDATA[Bạn hãy đọc KINH ...]]></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -336,7 +336,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -349,7 +349,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -362,7 +362,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -375,7 +375,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -388,7 +388,7 @@
 			<question_content><![CDATA[<img src='images/duoi-hinh-bat-chu/toma.png' />]]></question_content>
 
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -401,7 +401,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -414,7 +414,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -427,7 +427,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -441,7 +441,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -454,7 +454,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -468,7 +468,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -481,7 +481,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -494,7 +494,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -506,7 +506,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content><![CDATA[Câu hỏi GIÁO LÝ.]]></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -519,7 +519,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -546,7 +546,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
@@ -558,7 +558,7 @@
 			<image_url><![CDATA[images/nen-o-vuong.jpg]]></image_url>			
 			<question_content><![CDATA[<img src='images/duoi-hinh-bat-chu/giao-hoang.png' />]]></question_content>	<!-- Nội dung hỏi của ô -->
 			<question_answer><![CDATA[]]></question_answer>	<!-- Đáp án -->
-			<sound_correct_url><![CDATA[sound/correct2.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
+			<sound_correct_url><![CDATA[sound/correct.mp3]]></sound_correct_url>			<!-- Âm thanh ĐÚNG -->
 			<sound_wrong_url><![CDATA[sound/wrong.mp3]]></sound_wrong_url>					<!-- Âm thanh SAI -->
 			<image_correct_url><![CDATA[images/correct.png]]></image_correct_url>			<!-- Hình ảnh ĐÚNG -->
 			<image_wrong_url><![CDATA[images/wrong.png]]></image_wrong_url>					<!-- Hình ảnh SAI -->
